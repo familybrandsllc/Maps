@@ -1,6 +1,4 @@
-let stores = [{
-   "type": "FeatureCollection",
-   "features": [
+let stores = [
   {
     "type": "Feature",
     "geometry": {
