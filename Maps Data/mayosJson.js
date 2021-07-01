@@ -1,4 +1,4 @@
-[
+let sample = [
   {
     "Name": "Cash Saver #11",
     "Street": "213 West Main",
