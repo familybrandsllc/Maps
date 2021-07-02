@@ -5673,20 +5673,6 @@ let stores = [
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 0,0 ]
-    },
-    "properties": {
-    "Name":"Food Lion",
-    "Street":"1075 7 LAKES DRIVE",
-    "City":"SEVEN LAKES",
-    "State":"NC",
-    "Zip":null
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
        "coordinates":  [ -79.01048,34.643735 ]
     },
     "properties": {
