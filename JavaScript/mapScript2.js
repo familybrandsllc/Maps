@@ -140,7 +140,8 @@ function searchStores()
 		}
   //console.log("Start Loading Markers");
   clearLocations();
-  displayStores(foundStores);
+  //to increase laod speeds, the list is limited to the top 100 locations in the list
+  displayStores(foundStores.slice(0, 100));
   showStoresMarkers(foundStores);
   setOnClickListener();
 }
