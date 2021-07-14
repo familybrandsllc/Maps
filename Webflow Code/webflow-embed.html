@@ -1,0 +1,39 @@
+<div class="map-section">
+      <div class="list-holder">
+        <div class="title">Store Locator</div>
+        <div class="search-holder">
+          <div class="search-container">
+
+            <div class="search">
+              <input type="text" id="zip-code-input" placeholder="Enter Zip" />
+              <i class="fas fa-search" onclick="searchStores()"></i>
+            </div>
+          </div>
+        </div>
+        <div id="searchDiv" class="new-search-container">
+          <a href="#" class="new-search-button w-button" onclick="newSearch()">New Search</a>
+        </div>
+        <div class="stores-list-container">
+          <div class="stores-list">
+          </div>
+        </div>
+      </div>
+      <div class="map-window">
+        <div id="noStores" class="loading-div">
+          <div class="loading-heading">No Stores In This Zip</div>
+        </div>
+        <div id="map"></div>
+      </div>
+    </div>
+    
+    <script>
+    document.getElementById('zip-code-input').onkeydown = function(e){
+		//if variable e is key number 13 (the key of the enter button)
+   	if(e.keyCode == 13){
+    	//create variable ziCode from the pressed enter button and what is in zip-code-input
+     	var zipCode = document.getElementById('zip-code-input').value;
+      //run the searchStores function with the zip code input
+     	searchStores(zipCode);
+   	}
+};
+    </script>
