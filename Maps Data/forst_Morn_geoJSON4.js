@@ -2803,20 +2803,6 @@ let stores = [
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -96.766228,32.698742 ]
-    },
-    "properties": {
-    "Name":"Food Lion",
-    "Street":"3123 DALLAS HGH SHOA",
-    "City":"DALLAS",
-    "State":"NC",
-    "Zip":null
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
        "coordinates":  [ -78.956421,35.92092 ]
     },
     "properties": {
@@ -5049,20 +5035,6 @@ let stores = [
     "Name":"Food Lion",
     "Street":"1388 HWY. 601 SOUTH",
     "City":"MOCKSVILLE",
-    "State":"NC",
-    "Zip":null
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -94.998244,30.496826 ]
-    },
-    "properties": {
-    "Name":"Food Lion",
-    "Street":"130 LIBERTY SQUARE S",
-    "City":"KENANSVILLE",
     "State":"NC",
     "Zip":null
     }
