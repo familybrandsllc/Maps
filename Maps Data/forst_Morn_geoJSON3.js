@@ -2803,20 +2803,6 @@ let stores = [
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -89.016881,42.827668 ]
-    },
-    "properties": {
-    "Name":"Food Lion",
-    "Street":"802 HARBOUR DR",
-    "City":"ROCKY MOUNT",
-    "State":"NC",
-    "Zip":null
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
        "coordinates":  [ -96.766228,32.698742 ]
     },
     "properties": {
