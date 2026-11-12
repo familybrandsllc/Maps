@@ -167505,6 +167505,21 @@ let stores = [
           "Address": "2720 W Kearney St, Springfield, MO 65803",
           "Zip": "65803"
         }
-      }
-    
+      },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -78.9218667,
+        40.3271808
+      ]
+    },
+    "properties": {
+      "Name": "City Corner Mart",
+      "Phone": "814-262-8108",
+      "Address": "142 Walnut St. Johnstown, PA 15901",
+      "Zip": "15901"
+    }
+  }
 ]
