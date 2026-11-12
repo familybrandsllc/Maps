@@ -1,0 +1,61 @@
+name: Add Store Location
+
+run-name: "Add store: ${{ inputs.store_name }}"
+
+on:
+  workflow_dispatch:
+    inputs:
+      store_name:
+        description: 'Store name (required)'
+        required: true
+        type: string
+      address:
+        description: 'Full street address, city, state, ZIP (required)'
+        required: true
+        type: string
+      zip_code:
+        description: 'ZIP code (required)'
+        required: true
+        type: string
+      phone:
+        description: 'Phone number (optional)'
+        required: false
+        type: string
+      coordinates:
+        description: 'Paste Google Maps coordinates: latitude, longitude (optional; blank = auto lookup)'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: uncle-rays-store-locations
+  cancel-in-progress: false
+
+jobs:
+  add-location:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+
+      - name: Add location to existing file
+        env:
+          STORE_NAME: ${{ inputs.store_name }}
+          STORE_ADDRESS: ${{ inputs.address }}
+          STORE_ZIP: ${{ inputs.zip_code }}
+          STORE_PHONE: ${{ inputs.phone }}
+          STORE_COORDINATES: ${{ inputs.coordinates }}
+        run: python3 scripts/add_store.py
+
+      - name: Commit updated file
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- "Maps Data/UR-Locations-13.js"
+          git commit -m "Add Uncle Rays store location"
+          git push origin HEAD:main
