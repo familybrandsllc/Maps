@@ -167521,5 +167521,21 @@ let stores = [
       "Address": "142 Walnut St. Johnstown, PA 15901",
       "Zip": "15901"
     }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -80.1457672,
+        41.7149667
+      ]
+    },
+    "properties": {
+      "Name": "H&H Food Store",
+      "Phone": "814-763-5622",
+      "Address": "201 Main St, Saegertown, PA 16433",
+      "Zip": "16433"
+    }
   }
 ]
