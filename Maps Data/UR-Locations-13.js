@@ -167553,5 +167553,21 @@ let stores = [
       "Address": "401 Wyoming Avenue, West Pittston, PA 18643",
       "Zip": "18643"
     }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -76.0593604,
+        40.2405405
+      ]
+    },
+    "properties": {
+      "Name": "Adamstown Quick Stop",
+      "Phone": "",
+      "Address": "2990 N Reading Road, Adamstown, PA 19501",
+      "Zip": "19501"
+    }
   }
 ]
