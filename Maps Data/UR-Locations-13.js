@@ -167585,5 +167585,21 @@ let stores = [
       "Address": "308 East Market Street, Clearfield, PA 16830",
       "Zip": "16830"
     }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -75.74785,
+        41.3219852
+      ]
+    },
+    "properties": {
+      "Name": "Shreeji Dupont",
+      "Phone": "",
+      "Address": "279 Main Street, Pittston, PA 18641",
+      "Zip": "18641"
+    }
   }
 ]
