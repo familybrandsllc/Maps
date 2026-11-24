@@ -167569,5 +167569,21 @@ let stores = [
       "Address": "2990 N Reading Road, Adamstown, PA 19501",
       "Zip": "19501"
     }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -78.4359666,
+        41.0224174
+      ]
+    },
+    "properties": {
+      "Name": "Clearfield Convenience",
+      "Phone": "",
+      "Address": "308 East Market Street, Clearfield, PA 16830",
+      "Zip": "16830"
+    }
   }
 ]
