@@ -167617,5 +167617,21 @@ let stores = [
       "Address": "4706 William Flinn Highway, Allison Park, PA 15101",
       "Zip": "15101"
     }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -79.4552004,
+        41.5005786
+      ]
+    },
+    "properties": {
+      "Name": "Haller’s General Store",
+      "Phone": "",
+      "Address": "632 Elm Street, Tionesta, PA 16353",
+      "Zip": "16353"
+    }
   }
 ]
