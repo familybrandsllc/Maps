@@ -167537,5 +167537,21 @@ let stores = [
       "Address": "201 Main St, Saegertown, PA 16433",
       "Zip": "16433"
     }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -75.7990983,
+        41.3267731
+      ]
+    },
+    "properties": {
+      "Name": "SKS Quick Stop LLC",
+      "Phone": "",
+      "Address": "401 Wyoming Avenue, West Pittston, PA 18643",
+      "Zip": "18643"
+    }
   }
 ]
