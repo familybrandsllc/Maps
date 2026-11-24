@@ -167601,5 +167601,21 @@ let stores = [
       "Address": "279 Main Street, Pittston, PA 18641",
       "Zip": "18641"
     }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -79.946717,
+        40.5931448
+      ]
+    },
+    "properties": {
+      "Name": "Hampton Beer Outlet",
+      "Phone": "",
+      "Address": "4706 William Flinn Highway, Allison Park, PA 15101",
+      "Zip": "15101"
+    }
   }
 ]
